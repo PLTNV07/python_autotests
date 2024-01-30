@@ -11,5 +11,5 @@ def test_get_trainers():
     assert response.status_code == 200, 'Unexpected status code'
 
 def test_name_trainer():
-    response = requests.get(url=f'{URL}/trainers', params={'trainer_id'=='3595'}, headers=HEADER,timeout=5)
+    response = requests.get(url=f'{URL}/trainers', params={'trainer_id':'3595'}, headers=HEADER,timeout=5)
     assert response!=response.json()['trainer_name'] == 'Таня'
