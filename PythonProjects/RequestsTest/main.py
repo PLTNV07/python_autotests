@@ -3,7 +3,7 @@ POST запрос на создание покемона
 """
 import requests
 URL = 'https://api.pokemonbattle.me:9104'
-HEADER = {'Content-Type': 'application/json','trainer_token':'1ea328b98c63b267c0108a296dcbc606'}
+HEADER = {'Content-Type': 'application/json','trainer_token':'****'}
 
 body = {
     "name": "generate",
@@ -21,7 +21,7 @@ PUT смена имени покемона
 
 import requests
 URL = 'https://api.pokemonbattle.me:9104'
-HEADER = {'Content-Type': 'application/json','trainer_token':'1ea328b98c63b267c0108a296dcbc606'}
+HEADER = {'Content-Type': 'application/json','trainer_token':'****'}
 
 body = {
     "pokemon_id": "28802",
@@ -40,7 +40,7 @@ POST поймать покемона в покебол
 
 import requests
 URL = 'https://api.pokemonbattle.me:9104'
-HEADER = {'Content-Type': 'application/json','trainer_token':'1ea328b98c63b267c0108a296dcbc606'}
+HEADER = {'Content-Type': 'application/json','trainer_token':'****'}
 
 body = {
          "pokemon_id": "28804"
